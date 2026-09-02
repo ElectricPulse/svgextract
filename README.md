@@ -17,3 +17,6 @@ go into src directory and run go run *.go
 # Dependencies
 - inkscape
 - golang
+
+# Todo
+- If only one asset gets saved in inkscape, replace the root converting `assets.background` -> `assets: Asset`.

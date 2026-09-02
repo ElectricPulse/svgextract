@@ -335,5 +335,6 @@ func process(proxy *inkscape.Proxy, config Config) (Manifest, error) {
     return nil, err
   }
 
+  // TODO: If only one asset gets saved in inkscape, replace the root converting assets.background -> assets: Asset
   return manifest, err
 }
