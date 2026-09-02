@@ -1,0 +1,15 @@
+{
+  "name": "extractor",
+  "version": "1.0.0",
+  "description": "- this program is only neede to run when you change the main.inkscape.svg - The program inside this folder is used to extract the elements and their positions from an inkscape svg provided by the graphical designer. (Note. you can easily convert .ai to .inkscape.svg) - It is meant to ease the process of positioning elements inside the visualization by delegating this task to correct person -> the graphical designer",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "svgo": "^4.0.0"
+  }
+}
